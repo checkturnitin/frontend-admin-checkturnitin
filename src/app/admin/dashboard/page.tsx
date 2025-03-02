@@ -133,7 +133,7 @@ export default function Page() {
         </div>
 
         {/* Dashboard Metrics Section */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
           {loading ? (
             <>
               <Skeleton className="h-28 bg-gray-700 rounded-lg" />
@@ -155,6 +155,15 @@ export default function Page() {
               />
             </>
           )}
+        </div>
+
+        {/* Action Section */}
+        <div className="flex justify-center mt-10">
+          <Link href={`${adminPath}/checktransfer`}>
+            <Button variant="outline" className="text-white border-gray-600">
+              Check Transfer
+            </Button>
+          </Link>
         </div>
       </div>
     </div>
