@@ -76,6 +76,7 @@
   },
   "devDependencies": {
     "@gradio/client": "^0.19.0",
+    "@types/lodash.debounce": "^4.0.9",
     "@types/react-modal": "^3.16.3",
     "@types/react-slick": "^0.23.13",
     "autoprefixer": "^10.4.20",
