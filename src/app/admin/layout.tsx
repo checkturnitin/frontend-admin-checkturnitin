@@ -23,6 +23,10 @@ import { GrTransaction } from "react-icons/gr"
 import { GiWhirlpoolShuriken } from "react-icons/gi"
 import { IoIosStats } from "react-icons/io"
 import { MdOutlineWorkspaces } from "react-icons/md"
+import { FaGift } from "react-icons/fa";
+
+//import giftcard icon
+
 import { FaFileInvoice } from "react-icons/fa"
 
 export default function RootLayout({
@@ -47,6 +51,7 @@ export default function RootLayout({
     { href: "/admin/users", icon: FiUsers, label: "Users" },
     { href: "/admin/action", icon: MdOutlineWorkspaces, label: "Action" },
     { href: "/admin/checks", icon: MdOutlineWorkspaces, label: "Checks" },
+    { href: "/admin/giftcards", icon: FaGift, label: "GiftCards" },
 
     { href: "/admin/staffs", icon: MdOutlineWorkspaces, label: "Staffs" },
   ]
